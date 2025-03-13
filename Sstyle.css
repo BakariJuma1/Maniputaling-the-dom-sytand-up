@@ -8,6 +8,8 @@ body {
   border-radius: 20px;
   background-color: coral;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 .container h1 {
   text-align: center;
@@ -15,8 +17,15 @@ body {
 .container p {
   text-align: center;
 }
+.buttonContainer {
+  display: flex;
+}
 .container button {
-  margin-left: 70px;
+  margin-left: 30px;
+  padding: 3px;
+  border-radius: 10px;
+}
+.buttonContainer .contactMe {
   padding: 3px;
   border-radius: 10px;
 }
